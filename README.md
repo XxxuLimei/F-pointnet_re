@@ -34,7 +34,7 @@ frustum_angle: -1.3547251976663919
 get_lidar_in_image_fov cost 7.70 ms
 ```  
 - 仅将位于Gtbox内的Lidar点可视化（设置`show_lidar_box`参数为True）:
-![]()
+![](https://github.com/XxxuLimei/F-pointnet_re/blob/main/doc/gtbox_lidar.png)  
 打印的信息如下：  
 ```
 Type, truncation, occlusion, alpha: Pedestrian, 0, 0, -0.200000
