@@ -47,7 +47,7 @@ frustum_angle: -1.3547251976663919
 ('Number of points in 3d box: ', 376)
 ```  
 - 对Lidar点云进行可视化（设置`show_project`参数为True）:  
-![]()  
+![](https://github.com/XxxuLimei/F-pointnet_re/blob/main/doc/project.png)    
 打印的信息如下：
 ```
 Type, truncation, occlusion, alpha: Pedestrian, 0, 0, -0.200000
@@ -97,6 +97,18 @@ frustum_angle: -1.3547251976663919
  [18.30700992  1.00296512  0.83005261]
  [18.27600976  1.0579494   0.82905247]
  [21.01701075  1.35291567  0.92206282]]
+```  
+- 将一个frustum里的点云进行可视化（设置`show_lidar_frustum`参数为True）:
+![]()
+打印的信息如下：
 ```
-
+Type, truncation, occlusion, alpha: Pedestrian, 0, 0, -0.200000
+2d bbox (x0,y0,x1,y1): 712.400000, 143.000000, 810.730000, 307.920000
+3d bbox h,w,l: 1.890000, 0.480000, 1.200000
+3d bbox location, ry: (1.840000, 1.470000, 8.410000), 0.010000
+frustum_angle: -1.3547251976663919
+('Image shape: ', (370, 1224, 3))
+ -------- LiDAR points in a frustum from a 2D box --------
+('2d box FOV point num: ', 1483)
+```  
 
